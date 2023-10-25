@@ -1,0 +1,76 @@
+body {
+  background-color: rgb(121, 117, 117);
+}
+
+.div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-top: 3rem;
+  gap: 1.5rem;
+  width: 60vw;
+}
+
+select {
+  width: 60vw;
+  height: 3rem;
+}
+
+option {
+  font-size: 1.5rem;
+}
+
+#vade,
+#tutar {
+  width: 60vw;
+  height: 3rem;
+}
+
+.btn-dark {
+  width: 20vw;
+  display: block;
+}
+
+.btnn {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.tablo {
+  width: 60vw;
+  display: none;
+}
+
+table {
+  width: 60vw;
+}
+
+/* Default Table Style */
+table {
+  color: black;
+  background: white;
+  border: 1px solid grey;
+  font-size: 12pt;
+  border-collapse: collapse;
+  border: 3px solid #ffb300;
+}
+table thead th {
+  color: black;
+  font-weight: bold;
+  background: rgba(0, 0, 0, 0.2);
+  border: 3px solid #ffb300;
+}
+
+table th,
+table td {
+  padding: 0.5em;
+  border: 1px solid lightgrey;
+  border: 3px solid #ffb300;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#son {
+  background-color: rgba(0, 0, 0, 0.2);
+  font-weight: 600;
+}
